@@ -1,2 +1,3 @@
 class Author < ApplicationRecord
-end
+    has_many :posts
+  end
